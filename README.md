@@ -5,6 +5,8 @@
 [![CI](https://github.com/Stellar-Project-Hub/SoroForge-CLI/actions/workflows/ci.yml/badge.svg)](https://github.com/Stellar-Project-Hub/SoroForge-CLI/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-stable-orange.svg)](https://www.rust-lang.org)
+[![Node.js](https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 SoroForge is a single CLI tool that gives Soroban developers the same productive workflow Hardhat gave Ethereum developers — a local sandbox, hot-reload on save, and one-command testnet deployments.
 
