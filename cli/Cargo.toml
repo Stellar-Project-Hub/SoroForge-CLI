@@ -1,0 +1,21 @@
+[package]
+name = "soroforge"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "SoroForge CLI — Hardhat-like ergonomics for Soroban smart contract developers"
+
+[[bin]]
+name = "soroforge"
+path = "src/main.rs"
+
+[dependencies]
+soroforge-core    = { path = "../crates/soroforge-core" }
+soroforge-sandbox = { path = "../crates/soroforge-sandbox" }
+soroforge-deploy  = { path = "../crates/soroforge-deploy" }
+anyhow.workspace = true
+clap.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true

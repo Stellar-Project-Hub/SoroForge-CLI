@@ -1,0 +1,11 @@
+# SoroForge — Default project configuration
+# Copy this file to soroforge.toml and customize.
+
+[network]
+name = "testnet"
+rpc_url = "https://soroban-testnet.stellar.org"
+network_passphrase = "Test SDF Network ; September 2015"
+
+# [[contracts]]
+# name = "my_contract"
+# path = "contracts/my_contract"

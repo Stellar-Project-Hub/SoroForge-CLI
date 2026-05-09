@@ -1,0 +1,15 @@
+[package]
+name = "soroforge-sandbox"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Local Soroban sandbox environment management"
+
+[dependencies]
+soroforge-core = { path = "../../crates/soroforge-core" }
+anyhow.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+serde.workspace = true
+serde_json.workspace = true
